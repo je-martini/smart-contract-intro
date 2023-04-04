@@ -1,0 +1,83 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "unit",
+						"type": "uint256"
+					}
+				],
+				"name": "state_no_defined",
+				"type": "error"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "new_state",
+						"type": "uint256"
+					}
+				],
+				"name": "change_state",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "state",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/errores/errores.sol": "error"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/errores/errores.sol": {
+			"keccak256": "0xa94f6a85c296613bd41d322d352cbca932ed824e68243a90cc7db6a40615d1be",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://8e57b91f27f1c77e8df67172a3cda89c0969d455cc922fc48470473611b5c048",
+				"dweb:/ipfs/QmU7gm6zSUKj7uni7JGMeuiBJZ4TkbAr2QCNtfPWscU8wK"
+			]
+		}
+	},
+	"version": 1
+}

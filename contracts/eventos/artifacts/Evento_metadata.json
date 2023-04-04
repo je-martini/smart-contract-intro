@@ -1,0 +1,91 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "address",
+						"name": "editor",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "new_name0",
+						"type": "string"
+					}
+				],
+				"name": "change_name0",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "new_name1",
+						"type": "string"
+					}
+				],
+				"name": "change_name1",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "token_name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/eventos/eventos.sol": "Evento"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/eventos/eventos.sol": {
+			"keccak256": "0x6a200824d91403680dbec40da30711182c487cffacd30661f51baf8f48c80a54",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7216d98df18b170121c1d4dd4b589fd55165b08729192f1c3a2c4554c352f0ba",
+				"dweb:/ipfs/QmeKCMVUXsuPHrZomATHPMmJRPpiinFhq9tfs8BZk6gTtQ"
+			]
+		}
+	},
+	"version": 1
+}
