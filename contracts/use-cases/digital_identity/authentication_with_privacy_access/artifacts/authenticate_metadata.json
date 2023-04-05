@@ -1,0 +1,182 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "email",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "salary",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_address",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "enum authenticate.user_type",
+						"name": "user_type0",
+						"type": "uint8"
+					}
+				],
+				"name": "user_un_authorized",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "authenticator",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get_basic_info",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "email",
+								"type": "string"
+							}
+						],
+						"internalType": "struct authenticate.basic_info",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get_personal_infor",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "salary",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "_address",
+								"type": "string"
+							}
+						],
+						"internalType": "struct authenticate.personal_info",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum authenticate.user_type",
+						"name": "user_type0",
+						"type": "uint8"
+					},
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "register_user",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "users",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/use-cases/authentication_with_privacy_access/mix_contract.sol": "authenticate"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/use-cases/authentication_with_privacy_access/mix_contract.sol": {
+			"keccak256": "0x45b684af21b621c1af60d89b907316558c6816a81d212059457f0455799c97c5",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://d30cfa30d89bbeaea3e1d030f907079c25a68c849babb7b38e378b61eb0b91b4",
+				"dweb:/ipfs/QmUcouGyDPSF2S3H7ieR59yid2xpch6AUHJzu4rWpeu719"
+			]
+		}
+	},
+	"version": 1
+}

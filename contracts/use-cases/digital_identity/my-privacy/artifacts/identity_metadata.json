@@ -1,0 +1,156 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "email",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "salary",
+						"type": "uint256"
+					},
+					{
+						"internalType": "string",
+						"name": "_address",
+						"type": "string"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					},
+					{
+						"internalType": "enum identity.user_type",
+						"name": "user_type0",
+						"type": "uint8"
+					}
+				],
+				"name": "user_un_authorized",
+				"type": "error"
+			},
+			{
+				"inputs": [],
+				"name": "get_basic_info",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "string",
+								"name": "name",
+								"type": "string"
+							},
+							{
+								"internalType": "string",
+								"name": "email",
+								"type": "string"
+							}
+						],
+						"internalType": "struct identity.basic_info",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "get_personal_infor",
+				"outputs": [
+					{
+						"components": [
+							{
+								"internalType": "uint256",
+								"name": "salary",
+								"type": "uint256"
+							},
+							{
+								"internalType": "string",
+								"name": "_address",
+								"type": "string"
+							}
+						],
+						"internalType": "struct identity.personal_info",
+						"name": "",
+						"type": "tuple"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "enum identity.user_type",
+						"name": "user_type0",
+						"type": "uint8"
+					},
+					{
+						"internalType": "address",
+						"name": "user",
+						"type": "address"
+					}
+				],
+				"name": "register_user",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/use-cases/my-privacy/my-privacy.sol": "identity"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/use-cases/my-privacy/my-privacy.sol": {
+			"keccak256": "0x548c71200a56f0204d0f5d9da5fe0f48821cafdadf1cb4e41996643f6972cf08",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://a8e77e16ceac0c0ee12733955a04fc676e11e4d58788bfcf3804a4dd131758ea",
+				"dweb:/ipfs/QmQQB6UGGfVHUN4bydC6pBRWKWYiFmJjRjNg29sWATsNNq"
+			]
+		}
+	},
+	"version": 1
+}
